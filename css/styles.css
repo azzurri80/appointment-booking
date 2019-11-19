@@ -1,3 +1,10 @@
 #bookingConfirmation {
   display: none;
 }
+.jumbotron {
+  background-color: #696969;
+}
+
+.container {
+  background-color: #666633;
+}
