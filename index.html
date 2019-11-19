@@ -20,17 +20,20 @@
 
           <div class="form-group">
             <label for="date">Enter the date for your appointment (month/day/year):</label>
-            <input id="date" class="form-control" type="text">
+            <input type="date" id="date" class="form-control"
+              min="2019-01-01" max="2020-12-31">
           </div>
 
           <div class="form-group">
             <label for="startTime">Appointment start time:</label>
-            <input id="startTime" class="form-control" type="text">
+            <input type="time" id="startTime" class="form-control"
+              min="08:00" max="21:00">
           </div>
 
           <div class="form-group">
             <label for="endTime">Appointment end time:</label>
-            <input id="endTime" class="form-control" type="text">
+            <input type="time" id="endTime" class="form-control"
+              min="08:30" max="21:30">
           </div>
 
           <button type="submit" class="btn btn-outline-info">Click here to request your appointment.</button>
